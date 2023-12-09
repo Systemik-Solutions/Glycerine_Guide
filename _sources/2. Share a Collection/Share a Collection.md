@@ -1,1 +1,3 @@
 # Share a Collection
+
+Lorem ipsum...
