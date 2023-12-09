@@ -1,10 +1,6 @@
 format: jb-book
 root: intro
 parts:
-  - caption: 1. About the Image Annotation Workbench
-    chapters:
-      - file: 1. About the Image Annotation Workbench/About the Image Annotation Workbench
-      - file: 1. About the Image Annotation Workbench/*
   - caption: 2. Create a Collection
     chapters:
       - file: 2. Create a Collection/Create a Collection
