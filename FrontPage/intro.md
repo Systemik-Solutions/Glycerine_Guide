@@ -1,6 +1,10 @@
-# Introduction
+# About the Image Annotation Workbench
 
-Introduction
+The Image Annotation Workbench is a platform…
+
+## Permissions Guidelines
+…
+
 
 ```{tableofcontents}
 ```
