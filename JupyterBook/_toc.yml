@@ -21,3 +21,7 @@ parts:
     chapters:
       - file: 5. Annotate an Image Set/Annotate an Image Set
       - file: 5. Annotate an Image Set/*
+  - caption: 6. Publish
+    chapters:
+      - file: 6. Publish/Publish
+      - file: 6. Publish/*
