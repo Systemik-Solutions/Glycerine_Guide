@@ -5,3 +5,11 @@ parts:
     chapters:
       - file: 1. About the Image Annotation Workbench/About the Image Annotation Workbench
       - file: 1. About the Image Annotation Workbench/*
+  - caption: 2. Create a Collection
+    chapters:
+      - file: 2. Create a Collection/Create a Collection
+      - file: 2. Create a Collection/*
+  - caption: 3. Share a Collection
+    chapters:
+      - file: 3. Share a Collection/Share a Collection
+      - file: 3. Share a Collection/*
