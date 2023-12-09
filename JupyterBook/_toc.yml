@@ -13,3 +13,7 @@ parts:
     chapters:
       - file: 3. Share a Collection/Share a Collection
       - file: 3. Share a Collection/*
+  - caption: 4. Create an Image Set
+    chapters:
+      - file: 4. Create an Image Set/Create an Image Set
+      - file: 4. Create an Image Set/*
