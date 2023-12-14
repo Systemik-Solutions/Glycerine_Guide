@@ -4,4 +4,23 @@ There are two steps to publishing in the Image Annotation Workbench. First, publ
 
 ## Publish an Image Set
 
-## Publish Annotation Sets
+You can only publish Image Sets that you have created yourself.
+
+1.	Click the three dots next to the Image Set you want to publish.
+2.	Click **Publish**.
+3.	Press **Yes** in the popup if you want to proceed.
+
+Your Image Set can now be shared with others via the **Public URL**. To find this, press the three dots again and press **Public URL**.
+
+You can also press **Unpublish** at any time.
+
+### Publish Annotation Sets
+
+You can only publish Annotation Sets that you have created yourself.
+
+1.	Click the three dots next to the Image Set you want to publish annotations for.
+2.	Click **Annotate**.
+3.	Next to the Annotation Set you want to publish, press the **Publish** button.
+4.	Press **Yes** in the popup if you want to proceed.
+
+Your Annotation Set can now be seen on the Image Set via the **Public URL**.
