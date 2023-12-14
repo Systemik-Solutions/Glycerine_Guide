@@ -4,7 +4,7 @@ Once you have created an Image Set, you can annotate it. To add annotations to a
 
 ## Create an Annotation Set
 
-1.	Press the three dots next to the Image Set you want to annotate.
+1.	Click the three dots next to the Image Set you want to annotate.
 2.	Click **Annotate**.
 3.	Press **Add Annotation Set**.
 4.	Give the Annotation Set a **Name** and **Description**.
