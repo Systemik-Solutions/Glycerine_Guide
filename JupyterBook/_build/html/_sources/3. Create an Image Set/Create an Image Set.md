@@ -21,4 +21,4 @@ Currently, this feature of the Image Annotation Workbench is integrated with the
 3.	Use the checkboxes to select any images you want to add as Image Sets. They will be added as individual Image Sets.
 4.	Above the search results, press **Add selections to collection**.
 
-Now you are ready to begin annotating the images in your Image Set.
+Now you are ready to begin [annotating](https://systemik-solutions.github.io/image_annotation_site/4.%20Annotate%20an%20Image%20Set/Annotate%20an%20Image%20Set.html) the images in your Image Set.
