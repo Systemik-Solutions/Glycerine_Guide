@@ -14,7 +14,7 @@ Once you have created a Collection, you can add Image Sets to it to annotate. Yo
 
 Currently, this feature of the Image Annotation Workbench is integrated with the following institutions:
 
-•	Public Record Office Victoria (PROV)
+> Public Record Office Victoria (PROV)
 
 1.	Press **Import from Institution**.
 2.	Use the available fields to conduct a search for images.
