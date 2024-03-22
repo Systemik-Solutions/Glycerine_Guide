@@ -4,7 +4,7 @@ Once you have created an Image Set, you can annotate it. To add annotations to a
 
 ## Create an Annotation Set
 
-1.	Press the three dots next to the Image Set you want to annotate.
+1.	Click the three dots next to the Image Set you want to annotate.
 2.	Click **Annotate**.
 3.	Press **Add Annotation Set**.
 4.	Give the Annotation Set a **Name** and **Description**.
@@ -23,7 +23,7 @@ Now you are ready to annotate.
 
 ![Picture1](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/d0fea670-ae1b-447e-8365-55eeff1f50f5)
 
-You can use any combination of these six tools to draw on your image and create annotations.
+You can use any combination of these five tools to draw on your image and create annotations.
 
 #### Freehand tool
 
@@ -36,12 +36,6 @@ Click this icon to use the freehand tool. Click and drag your mouse on the image
 ![Picture3](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/64478898-46f2-417a-9548-fdd508b0bc72) ![Picture4](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/a50aa6c3-00a4-424f-903e-bb3c10baf5a1)
 
 Click these icons to use the oval or circle tools. Click and drag your mouse on the image to draw an oval or circle of any size. When you release the mouse button, the drawing will complete, and the annotation pane will appear.
-
-#### Point tool
-
-![Picture5](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/a5070528-9afd-4812-9bd1-5543fa30aa30)
-
-Click this icon to use the point tool. Click anywhere on the image to place a single point. The annotation pane will appear.
 
 #### Rectangle tool
 
