@@ -1,6 +1,6 @@
 # Create an Image Set
 
-Once you have created a Collection, you can add Image Sets to it to annotate. You can create an Image Set manually, or you can import an existing one from an external institution, like a database or archive.
+Once you have created a Collection, you can add Image Sets to it to annotate. You can create an Image Set manually, or you can import an existing one from a IIIF manifest or an external institution, like a database or archive.
 
 ## Manually create an Image Set 
 
@@ -9,6 +9,16 @@ Once you have created a Collection, you can add Image Sets to it to annotate. Yo
 3.	To add **Images**, press **Upload Local Image**, **Add Remote Image**, or **Add IIIF Image**.
 4.	Give the image a **Name** and a **Description**, add your chosen image, and press **Add**.
 5.	Add as many images to the Image Set as you want.
+
+## Import an Image Set from a IIIF Manifest
+
+A IIIF Manifest is a package that contains all the information related to a IIIF digital object, including the image or images. If you have an existing IIIF image of images that you would like to annotate on Glycerine you can import it from its manifest.
+
+1. Press **Import from IIIF Manifest**.
+2. Paste the URL of the manifest into the **Manifest URL** field.
+3. Press **Import**.
+
+An Image Set will be created with the image or images from the IIIF manifest.
 
 ## Import an Image Set from an institution
 
