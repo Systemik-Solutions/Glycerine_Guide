@@ -21,7 +21,3 @@ parts:
     chapters:
       - file: 5. Publish/Publish
       - file: 5. Publish/*
-  - caption: 6. Permissions Guidelines
-    chapters:
-      - file: 6. Permissions Guidelines/Permissions Guidelines
-      - file: 6. Permissions Guidelines/*
