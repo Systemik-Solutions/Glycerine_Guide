@@ -51,7 +51,7 @@ Click this icon to use the polygon tool. Click and drag your mouse to draw the f
 ***
 
 3.	In the **About** tab, give your annotation a **Title**, **Description**, and add any relevant **Links** (press the plus button to add more than one).
-4.	In the **Tags** tab, use terms from a Research Vocabularies Australia vocabulary to tag the annotation. You can press **Switch Vocabulary** at any time.
+4.	In the **Tags** tab, use terms from a Research Vocabularies Australia vocabulary to tag the annotation. You can chose from **Published** or **Sandpit** (work-in-progress) vocabularies. Once you selected one, you can press **Switch Vocabulary** at any time to choose another.
 5.	In the **Notes** tab, add **Notes** (press the plus button to add more than one), an **Attribution**, a **Date**, and set the **Line Color**.
 
 > **Notes** can be anything you like — maybe detailed descriptions of the part of the image being annotated, or quotes from other scholars.
