@@ -16,7 +16,8 @@ A IIIF Manifest is a package that contains all the information related to a IIIF
 
 1. Press **Import from IIIF Manifest**.
 2. Paste the URL of the manifest into the **Manifest URL** field.
-3. Press **Import**.
+3. If desired, check the **Convert plain images to IIIF** checbox. This will allow plain images from the manifest to be hosted as IIIF images on the Glycerine server.
+4. Press **Import**.
 
 An Image Set will be created with the image or images from the IIIF manifest.
 
