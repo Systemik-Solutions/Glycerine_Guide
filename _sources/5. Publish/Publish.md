@@ -24,3 +24,5 @@ You can only publish Annotation Sets that you have created yourself.
 4.	Press **Yes** in the popup if you want to proceed.
 
 Your Annotation Set can now be seen on the Image Set via the **Public URL**.
+
+> Once you've published your annotation set you can also press the **Share** button next to the set to find the IIIF Annotation Collection Manifest, which contains the annotation data only. You can open this in other IIIF annotation platforms. 
