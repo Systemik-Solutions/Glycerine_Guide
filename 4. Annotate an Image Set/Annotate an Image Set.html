@@ -382,6 +382,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-custom-annotation-template">Create a custom Annotation Template</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-an-annotation-set">Create an Annotation Set</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#annotate">Annotate</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#annotation-tools">Annotation tools</a><ul class="nav section-nav flex-column">
@@ -407,9 +408,37 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="annotate-an-image-set">
 <h1>Annotate an Image Set<a class="headerlink" href="#annotate-an-image-set" title="Permalink to this heading">#</a></h1>
-<p>Once you have created an Image Set, you can annotate it. To add annotations to an Image Set you must create an Annotation Set for it. Anybody can add an Annotation Set to an Image Set <a class="reference external" href="https://systemik-solutions.github.io/image_annotation_site/2.%20Share%20a%20Collection/Share%20a%20Collection.html">if the Collection has been shared with them</a>.</p>
+<p>Once you have created an Image Set, you can annotate it. Before you start annotating, think about the kinds of information you want to include in the annotation. You can adjust the fields that can be filled out in the annotation window by creating custom <strong>Annotation Templates</strong>. If you’re okay with basic fields like Title, Description, Links, and Notes, you can skip straight to <a class="reference external" href="https://systemik-solutions.github.io/Glycerine_Guide/4.%20Annotate%20an%20Image%20Set/Annotate%20an%20Image%20Set.html#create-an-annotation-set">creating an annotation set</a>.</p>
+<section id="create-a-custom-annotation-template">
+<h2>Create a custom Annotation Template<a class="headerlink" href="#create-a-custom-annotation-template" title="Permalink to this heading">#</a></h2>
+<p>If our preset Standard, Basic, and Minimal Annotation Templates don’t offer the fields you need for your annotations, create a custom template.</p>
+<ol class="arabic simple">
+<li><p>In the sidebar go to <strong>Management</strong> &gt; <strong>Annotation Templates</strong>.</p></li>
+<li><p>Click <strong>Create New</strong>.</p></li>
+<li><p>Give your template a <strong>Name</strong> and <strong>Description</strong></p></li>
+<li><p>Click <strong>Add Field</strong> to add a new field to the template. You can also click <strong>Create Group</strong> to group fields together.</p></li>
+</ol>
+<blockquote>
+<div><p>Fields in the same Group will show in their own tab in the <a class="reference external" href="https://systemik-solutions.github.io/Glycerine_Guide/4.%20Annotate%20an%20Image%20Set/Annotate%20an%20Image%20Set.html#the-annotation-window">Annotation Window</a>. The name of the Group is the name of the tab.</p>
+</div></blockquote>
+<ol class="arabic simple" start="5">
+<li><p>Choose the field <strong>Type</strong> from the dropdown.</p></li>
+</ol>
+<blockquote>
+<div><p>The <strong>Long Text</strong> type has the option to allow HTML customisation, while the <strong>Text</strong> type does not.</p>
+</div></blockquote>
+<ol class="arabic simple" start="6">
+<li><p>Give the field a <strong>Name</strong> and <strong>Description</strong>. If you have chosen the <strong>Choice</strong> Type, you will also need to add options to the <strong>Option List</strong>. Separate each option with a new line.</p></li>
+<li><p>Use the checkboxes to set options for the field.</p></li>
+<li><p>Click <strong>Create</strong>.</p></li>
+<li><p>Once you’ve added all the fields you want, you can also set a <strong>Title Mask</strong> to determine the title of all annotations that use this template. The mask can incorporate values from other fields in the template.</p></li>
+<li><p>Click <strong>Save</strong>.</p></li>
+</ol>
+<p>With your template finished you can now proceed to annotation.</p>
+</section>
 <section id="create-an-annotation-set">
 <h2>Create an Annotation Set<a class="headerlink" href="#create-an-annotation-set" title="Permalink to this heading">#</a></h2>
+<p>To add annotations to an Image Set you must create an Annotation Set for it. Anybody can add an Annotation Set to an Image Set <a class="reference external" href="https://systemik-solutions.github.io/image_annotation_site/2.%20Share%20a%20Collection/Share%20a%20Collection.html">if the Collection has been shared with them</a>.</p>
 <ol class="arabic simple">
 <li><p>Click the three dots next to the Image Set you want to annotate.</p></li>
 <li><p>Click <strong>Annotate</strong>.</p></li>
@@ -418,7 +447,7 @@ document.write(`
 <li><p>Press <strong>Select Vocabulary</strong> to set a default vocabulary from Research Vocabularies Australia to use for tagging in annotations.</p></li>
 <li><p>Press <strong>Create</strong>.</p></li>
 </ol>
-<p>Now you are ready to annotate.</p>
+<p>Now you’re ready to annotate.</p>
 </section>
 <section id="annotate">
 <h2>Annotate<a class="headerlink" href="#annotate" title="Permalink to this heading">#</a></h2>
@@ -537,6 +566,7 @@ Different <strong>Line Colors</strong> are useful for grouping annotations. For 
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-custom-annotation-template">Create a custom Annotation Template</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-an-annotation-set">Create an Annotation Set</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#annotate">Annotate</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#annotation-tools">Annotation tools</a><ul class="nav section-nav flex-column">
