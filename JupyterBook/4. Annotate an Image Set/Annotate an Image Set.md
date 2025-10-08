@@ -47,16 +47,20 @@ Click this icon to use the rectangle tool. Click and drag your mouse on the imag
 
 <img width="58" height="58" alt="Polygon tool" src="https://github.com/user-attachments/assets/d3289d76-aefc-4c50-ad61-4fa7fbcccd93" />
 
-Click this icon to use the polygon tool. Click and drag your mouse to draw the first line in a polygon. When you release the mouse button, the straight line will be drawn. You can then click your mouse anywhere on the image to place the next line in the polygon. Repeat this as many times as you want. Double-click to close the shape and complete the drawing. The annotation pane will appear.
+Click this icon to use the polygon tool. Click and drag your mouse to draw the first line in a polygon. When you release the mouse button, the straight line will be drawn. You can then click your mouse anywhere on the image to place the next line in the polygon. Repeat this as many times as you want. Double-click to close the shape and complete the drawing. The annotation window will appear.
 ***
+### The annotation window
 
-3.	In the **About** tab, give your annotation a **Title**, **Description**, and add any relevant **Links** (press the plus button to add more than one).
-4.	In the **Tags** tab, use terms from a Research Vocabularies Australia vocabulary to tag the annotation. You can chose from **Published** or **Sandpit** (work-in-progress) vocabularies. Once you selected one, you can press **Switch Vocabulary** at any time to choose another.
-5.	In the **Notes** tab, add **Notes** (press the plus button to add more than one), an **Attribution**, a **Date**, and set the **Line Color**.
+You can fill out the information for your annotation in the annotation window. At the top of the window select your desired **Annotation Template** to adjust the fields you're filling out. You can choose from **Standard**, **Basic**, **Minimal**, or any custom template you've built. You can also switch between **Annotation Languages** if you have [added other languages to your Image Set](https://systemik-solutions.github.io/Glycerine_Guide/3.%20Create%20an%20Image%20Set/Create%20an%20Image%20Set.html#manually-create-an-image-set).
+
+1.	In the **About** tab, give your annotation a **Title**, **Description**, and add any relevant **Links** (press the plus button to add more than one).
+2.	In the **Notes** tab, add **Notes** (press the plus button to add more than one), an **Attribution**, a **Date**, and set the **Line Color**.
+3.	In the **Tags** tab, use terms from a Research Vocabularies Australia vocabulary to tag the annotation. You can chose from **Published** or **Sandpit** (work-in-progress) vocabularies. Once you selected one, you can press **Switch Vocabulary** at any time to choose another.
 
 > **Notes** can be anything you like — maybe detailed descriptions of the part of the image being annotated, or quotes from other scholars.
 Each annotation can only have one **Attribution** and **Date**. These will usually be your name and the current date.
 Different **Line Colors** are useful for grouping annotations. For instance, you might choose **Dark** for a large annotation, then **Medium** or **Light** for annotations of things within that larger area.
 
-6.	When you’re done, click **Save**.
-7.	If there are multiple images in the Image Set, click their thumbnails to start annotating them.
+4.	When you’re done, click **Save**.
+
+If there are multiple images in the Image Set, click their thumbnails to start annotating them.
