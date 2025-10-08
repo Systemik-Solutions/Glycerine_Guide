@@ -1,8 +1,33 @@
 # Annotate an Image Set
 
-Once you have created an Image Set, you can annotate it. To add annotations to an Image Set you must create an Annotation Set for it. Anybody can add an Annotation Set to an Image Set [if the Collection has been shared with them](https://systemik-solutions.github.io/image_annotation_site/2.%20Share%20a%20Collection/Share%20a%20Collection.html).
+Once you have created an Image Set, you can annotate it. Before you start annotating, think about the kinds of information you want to include in the annotation. You can adjust the fields that can be filled out in the annotation window by creating custom **Annotation Templates**. If you're okay with basic fields like Title, Description, Links, and Notes, you can skip straight to [creating an annotation set](https://systemik-solutions.github.io/Glycerine_Guide/4.%20Annotate%20an%20Image%20Set/Annotate%20an%20Image%20Set.html#create-an-annotation-set).
+
+## Create a custom Annotation Template
+
+If our preset Standard, Basic, and Minimal Annotation Templates don't offer the fields you need for your annotations, create a custom template.
+
+1. In the sidebar go to **Management** > **Annotation Templates**.
+2. Click **Create New**.
+3. Give your template a **Name** and **Description**
+4. Click **Add Field** to add a new field to the template. You can also click **Create Group** to group fields together.
+
+> Fields in the same Group will show in their own tab in the [Annotation Window](https://systemik-solutions.github.io/Glycerine_Guide/4.%20Annotate%20an%20Image%20Set/Annotate%20an%20Image%20Set.html#the-annotation-window). The name of the Group is the name of the tab.
+
+5. Choose the field **Type** from the dropdown.
+
+> The **Long Text** type has the option to allow HTML customisation, while the **Text** type does not.
+
+6. Give the field a **Name** and **Description**. If you have chosen the **Choice** Type, you will also need to add options to the **Option List**. Separate each option with a new line.
+7. Use the checkboxes to set options for the field.
+8. Click **Create**.
+9. Once you've added all the fields you want, you can also set a **Title Mask** to determine the title of all annotations that use this template. The mask can incorporate values from other fields in the template.
+10. Click **Save**.
+
+With your template finished you can now proceed to annotation.
 
 ## Create an Annotation Set
+
+To add annotations to an Image Set you must create an Annotation Set for it. Anybody can add an Annotation Set to an Image Set [if the Collection has been shared with them](https://systemik-solutions.github.io/image_annotation_site/2.%20Share%20a%20Collection/Share%20a%20Collection.html).
 
 1.	Click the three dots next to the Image Set you want to annotate.
 2.	Click **Annotate**.
@@ -11,7 +36,7 @@ Once you have created an Image Set, you can annotate it. To add annotations to a
 5.	Press **Select Vocabulary** to set a default vocabulary from Research Vocabularies Australia to use for tagging in annotations.
 6.	Press **Create**.
 
-Now you are ready to annotate.
+Now you're ready to annotate.
 
 ## Annotate
 
