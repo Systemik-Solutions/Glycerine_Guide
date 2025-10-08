@@ -21,7 +21,7 @@ Now you are ready to annotate.
 ***
 ### Annotation tools
 
-<img width="254" alt="Screenshot 2024-03-22 at 2 23 23 pm" src="https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/0d6f109e-a816-40ed-b0a2-5d826ce5e82a">
+<img width="258" height="58" alt="Tools" src="https://github.com/user-attachments/assets/024def09-d1fe-4d5c-ac76-f49d88af50c8" />
 
 You can use any combination of these five tools to draw on your image and create annotations.
 
