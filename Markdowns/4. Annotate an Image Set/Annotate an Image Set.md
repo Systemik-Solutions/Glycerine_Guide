@@ -27,25 +27,25 @@ You can use any combination of these five tools to draw on your image and create
 
 #### Freehand tool
 
-![Picture2](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/f8a4f395-7aa2-4a3d-a7f0-cbb31bb537b0)
+<img width="58" height="58" alt="Freehand tool" src="https://github.com/user-attachments/assets/b6a4012e-6661-4a01-be9e-8faad052e7a6" />
 
 Click this icon to use the freehand tool. Click and drag your mouse on the image to draw any line or shape. When you release the mouse button, the drawing will complete, and the annotation pane will appear.
 
 #### Oval and circle tools
   
-![Picture3](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/64478898-46f2-417a-9548-fdd508b0bc72) ![Picture4](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/a50aa6c3-00a4-424f-903e-bb3c10baf5a1)
+<img width="108" height="58" alt="Oval and circle tools" src="https://github.com/user-attachments/assets/15ef8ed4-8502-450b-9723-1f9f3dd37f5d" />
 
 Click these icons to use the oval or circle tools. Click and drag your mouse on the image to draw an oval or circle of any size. When you release the mouse button, the drawing will complete, and the annotation pane will appear.
 
 #### Rectangle tool
 
-![Picture6](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/2aa54ba5-d231-473a-9b03-585b90e0b9d4)
+<img width="55" height="58" alt="Rectangle tool" src="https://github.com/user-attachments/assets/4883cbd9-b8a3-4275-8510-47d822e078a2" />
 
 Click this icon to use the rectangle tool. Click and drag your mouse on the image to draw a rectangle of any size. When you release the mouse button, the drawing will complete, and the annotation pane will appear.
 
 #### Polygon tool
 
-![Picture7](https://github.com/Systemik-Solutions/image_annotation_site/assets/29685780/56e4e5fa-e932-47d9-b3e2-c84858890e9d)
+<img width="58" height="58" alt="Polygon tool" src="https://github.com/user-attachments/assets/d3289d76-aefc-4c50-ad61-4fa7fbcccd93" />
 
 Click this icon to use the polygon tool. Click and drag your mouse to draw the first line in a polygon. When you release the mouse button, the straight line will be drawn. You can then click your mouse anywhere on the image to place the next line in the polygon. Repeat this as many times as you want. Double-click to close the shape and complete the drawing. The annotation pane will appear.
 ***
