@@ -27,7 +27,7 @@ With your template finished you can now proceed to annotation.
 
 ## Create an Annotation Set
 
-To add annotations to an Image Set you must create an Annotation Set for it. Anybody can add an Annotation Set to an Image Set [if the Collection has been shared with them](https://systemik-solutions.github.io/image_annotation_site/2.%20Share%20a%20Collection/Share%20a%20Collection.html).
+To add annotations to an Image Set you must create an Annotation Set for it. Anybody can add an Annotation Set to an Image Set [if the Collection has been shared with them](https://systemik-solutions.github.io/Glycerine_Guide/2.%20Share%20a%20Collection/Share%20a%20Collection.html#share-a-collection).
 
 1.	Click the three dots next to the Image Set you want to annotate.
 2.	Click **Annotate**.
