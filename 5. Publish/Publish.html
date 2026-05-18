@@ -383,6 +383,15 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publish-an-image-set">1. Publish an Image Set</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publish-annotation-sets">2. Publish Annotation Sets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#url-parameters-for-image-set-publications">3. URL parameters for Image Set publications</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#show-hide-interface-elements">Show / hide interface elements</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#starting-position">Starting position</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#annotation-filters">Annotation filters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#annotation-display">Annotation display</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#playback">Playback</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#image">Image</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -421,6 +430,167 @@ document.write(`
 <blockquote>
 <div><p>Once you’ve published your annotation set you can also press the <strong>Share</strong> icon next to the set to find the IIIF Annotation Collection Manifest, which contains the annotation data only. You can reference this in a digital asset or collections management system to aggregate annotation sets with existing manifests.</p>
 </div></blockquote>
+</section>
+<section id="url-parameters-for-image-set-publications">
+<h2>3. URL parameters for Image Set publications<a class="headerlink" href="#url-parameters-for-image-set-publications" title="Permalink to this heading">#</a></h2>
+<p>The published Image Set viewer accepts URL parameters that configure its initial state. Append them to the <strong>Public URL</strong> as a standard query string, for example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>https://iaw.ardc-hdcl-sia-iaw.cloud.edu.au/publications/image-sets/01hm598yb6hc3s7btmqth813mg?infopanel=0&amp;autoplay=1&amp;light=70
+</pre></div>
+</div>
+<p>This is useful when embedding the viewer in another site, sharing a link that opens on a specific canvas or annotation, or pre-filtering annotations by collection, language, colour, or weight.</p>
+<p>These parameters only set the <strong>initial</strong> state of the viewer when the publication is opened. Most of them can still be overridden by the user afterwards through the viewer’s own controls (settings pane, filters, playback controls, etc.).</p>
+<section id="show-hide-interface-elements">
+<h3>Show / hide interface elements<a class="headerlink" href="#show-hide-interface-elements" title="Permalink to this heading">#</a></h3>
+<p>These accept <code class="docutils literal notranslate"><span class="pre">1</span></code> (show) or <code class="docutils literal notranslate"><span class="pre">0</span></code> (hide). When omitted, the viewer default is used.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Controls</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">infopanel</span></code></p></td>
+<td><p>The info panel beside the image.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">fullscreenbutton</span></code></p></td>
+<td><p>The full-screen button.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">indexbutton</span></code></p></td>
+<td><p>The index (canvas list) button.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">annotationviewbutton</span></code></p></td>
+<td><p>The annotation view button.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">aboutpanebutton</span></code></p></td>
+<td><p>The about button.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">settingpanebutton</span></code></p></td>
+<td><p>The settings button.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">playcontrols</span></code></p></td>
+<td><p>The annotation play controls.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="starting-position">
+<h3>Starting position<a class="headerlink" href="#starting-position" title="Permalink to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">start_canvas</span></code></p></td>
+<td><p>URL-encoded canvas <code class="docutils literal notranslate"><span class="pre">id</span></code></p></td>
+<td><p>The canvas to display when the viewer opens. Overrides the manifest’s own <code class="docutils literal notranslate"><span class="pre">start</span></code> property. Ignored if the id is not in the manifest.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">start_annotation</span></code></p></td>
+<td><p>URL-encoded annotation <code class="docutils literal notranslate"><span class="pre">id</span></code></p></td>
+<td><p>The annotation to focus initially. The viewer opens that annotation’s canvas and pans/zooms to it. Takes priority over <code class="docutils literal notranslate"><span class="pre">start_canvas</span></code>. Ignored if the id is not found or if the active annotation filters would exclude it.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="annotation-filters">
+<h3>Annotation filters<a class="headerlink" href="#annotation-filters" title="Permalink to this heading">#</a></h3>
+<p>These set the viewer’s initial annotation filter selections. Annotations that don’t match are hidden until the user clears the filter.</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">default_annotation_set</span></code></p></td>
+<td><p>URL-encoded annotation collection <code class="docutils literal notranslate"><span class="pre">id</span></code></p></td>
+<td><p>Show only annotations in this collection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">default_annotation_language</span></code></p></td>
+<td><p>Language code, e.g. <code class="docutils literal notranslate"><span class="pre">en</span></code>, <code class="docutils literal notranslate"><span class="pre">fr</span></code></p></td>
+<td><p>Show only annotations in this language.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">default_line_color</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">blue</span></code>, <code class="docutils literal notranslate"><span class="pre">green</span></code>, <code class="docutils literal notranslate"><span class="pre">red</span></code>, <code class="docutils literal notranslate"><span class="pre">yellow</span></code>, <code class="docutils literal notranslate"><span class="pre">purple</span></code>, <code class="docutils literal notranslate"><span class="pre">orange</span></code>, <code class="docutils literal notranslate"><span class="pre">pink</span></code>, <code class="docutils literal notranslate"><span class="pre">brown</span></code>, <code class="docutils literal notranslate"><span class="pre">gray</span></code></p></td>
+<td><p>Show only annotations drawn in this colour.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">default_line_weight</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">light</span></code>, <code class="docutils literal notranslate"><span class="pre">medium</span></code>, <code class="docutils literal notranslate"><span class="pre">dark</span></code></p></td>
+<td><p>Show only annotations drawn with this line weight.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="annotation-display">
+<h3>Annotation display<a class="headerlink" href="#annotation-display" title="Permalink to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">fill_opacity</span></code></p></td>
+<td><p>Number between <code class="docutils literal notranslate"><span class="pre">0</span></code> and <code class="docutils literal notranslate"><span class="pre">1</span></code> (one decimal place, e.g. <code class="docutils literal notranslate"><span class="pre">0.3</span></code>)</p></td>
+<td><p>Fill opacity for annotation shapes.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">cutout</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">0</span></code> or <code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
+<td><p>Whether to display the annotation cutout by default.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">popup_position</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">top</span></code>, <code class="docutils literal notranslate"><span class="pre">bottom</span></code>, <code class="docutils literal notranslate"><span class="pre">left</span></code>, <code class="docutils literal notranslate"><span class="pre">right</span></code>, <code class="docutils literal notranslate"><span class="pre">topleft</span></code>, <code class="docutils literal notranslate"><span class="pre">topright</span></code>, <code class="docutils literal notranslate"><span class="pre">bottomleft</span></code>, <code class="docutils literal notranslate"><span class="pre">bottomright</span></code>, <code class="docutils literal notranslate"><span class="pre">center</span></code></p></td>
+<td><p>Position of the annotation popup relative to the annotation.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="playback">
+<h3>Playback<a class="headerlink" href="#playback" title="Permalink to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">autoplay</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">0</span></code> or <code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
+<td><p>Automatically start playing annotations after the manifest loads.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">play_speed</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">3000</span></code> (fast), <code class="docutils literal notranslate"><span class="pre">5000</span></code> (normal), or <code class="docutils literal notranslate"><span class="pre">10000</span></code> (slow)</p></td>
+<td><p>Time in milliseconds spent on each annotation during playback.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">play_popup</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">0</span></code> or <code class="docutils literal notranslate"><span class="pre">1</span></code></p></td>
+<td><p>Whether to show the annotation popup while playing.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="image">
+<h3>Image<a class="headerlink" href="#image" title="Permalink to this heading">#</a></h3>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Parameter</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">light</span></code></p></td>
+<td><p>Integer between <code class="docutils literal notranslate"><span class="pre">0</span></code> and <code class="docutils literal notranslate"><span class="pre">100</span></code></p></td>
+<td><p>The image light (brightness) level.</p></td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 </section>
 
@@ -480,6 +650,15 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publish-an-image-set">1. Publish an Image Set</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publish-annotation-sets">2. Publish Annotation Sets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#url-parameters-for-image-set-publications">3. URL parameters for Image Set publications</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#show-hide-interface-elements">Show / hide interface elements</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#starting-position">Starting position</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#annotation-filters">Annotation filters</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#annotation-display">Annotation display</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#playback">Playback</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#image">Image</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
