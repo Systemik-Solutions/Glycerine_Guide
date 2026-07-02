@@ -46,9 +46,9 @@ Now you're ready to annotate.
 ***
 ### Annotation tools
 
-<img width="258" height="58" alt="Tools" src="https://github.com/user-attachments/assets/024def09-d1fe-4d5c-ac76-f49d88af50c8" />
+<img width="359" height="59" alt="Tools 2" src="https://github.com/user-attachments/assets/34387715-55d4-4c18-8ce6-2045f0ccdf2a" />
 
-You can use any combination of these five tools to draw on your image and create annotations.
+You can use any combination of these seven tools to draw on your image and create annotations.
 
 #### Freehand tool
 
@@ -56,11 +56,11 @@ You can use any combination of these five tools to draw on your image and create
 
 Click this icon to use the freehand tool. Click and drag your mouse on the image to draw any line or shape. When you release the mouse button, the drawing will complete, and the annotation pane will appear.
 
-#### Oval and circle tools
-  
-<img width="108" height="58" alt="Oval and circle tools" src="https://github.com/user-attachments/assets/15ef8ed4-8502-450b-9723-1f9f3dd37f5d" />
+#### Ellipse tool
 
-Click these icons to use the oval or circle tools. Click and drag your mouse on the image to draw an oval or circle of any size. When you release the mouse button, the drawing will complete, and the annotation pane will appear.
+<img width="55" height="58" alt="Oval tool" src="https://github.com/user-attachments/assets/c2a34ed1-fcfb-4cca-9566-38cb09b4ea41" />
+
+Click this icon to use the ellipse tool. Click and drag your mouse on the image to draw an ellipse of any size. When you release the mouse button, the drawing will complete, and the annotation pane will appear.
 
 #### Rectangle tool
 
@@ -73,6 +73,12 @@ Click this icon to use the rectangle tool. Click and drag your mouse on the imag
 <img width="58" height="58" alt="Polygon tool" src="https://github.com/user-attachments/assets/d3289d76-aefc-4c50-ad61-4fa7fbcccd93" />
 
 Click this icon to use the polygon tool. Click and drag your mouse to draw the first line in a polygon. When you release the mouse button, the straight line will be drawn. You can then click your mouse anywhere on the image to place the next line in the polygon. Repeat this as many times as you want. Double-click to close the shape and complete the drawing. The annotation window will appear.
+
+#### Intelligent Scissors and Magnetic Cursor tools
+
+<img width="103" height="55" alt="Intelligent" src="https://github.com/user-attachments/assets/a2d44825-24a2-4f3b-905f-fb49fdae183a" />
+
+Click these icons to use the Intelligent Scissors and Magnetic Cursor tools. For both tools, click your mouse to place the first point in your shape, then keep clicking to place additional points. The Intelligent Scissors will detect the edges of the part of the image you're annotating as you draw, while the Magnetic Cursor will snap your cursor to the edges. Double-click to close the shape and complete the drawing. The annotation window will appear.
 ***
 ### The annotation window
 
