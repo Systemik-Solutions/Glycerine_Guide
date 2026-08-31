@@ -41,7 +41,7 @@ These parameters only set the **initial** state of the viewer when the publicati
 
 ### Show / hide interface elements
 
-These accept `1` (show) or `0` (hide). When omitted, the viewer default is used.
+These accept `1` (show) or `0` (hide). When omitted, the viewer default is used:
 
 | Parameter | Controls |
 | --- | --- |
